@@ -13,7 +13,9 @@ export default function Dictionary() {
     event.preventDefault();
     alert(`Searching for ${keyword}`);
 
-    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/sunrise`;
+    let word = "sunrise";
+    let key = "1o0f4aea9af54436031a3t4f3b2ca21f";
+    let apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=${word}&key=${key}`;
     axios.get(apiUrl).then(handleResponse);
   }
 
