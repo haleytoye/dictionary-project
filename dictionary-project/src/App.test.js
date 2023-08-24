@@ -1,6 +1,5 @@
 import { render, screen } from "@testing-library/react";
 import App from "./App";
-import Dictionary from "./Dictionary";
 
 test("renders learn react link", () => {
   render(<App />);
