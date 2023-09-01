@@ -1,3 +1,7 @@
+.Meanings {
+  line-height: 1.5;
+}
+
 .text::first-letter {
   text-transform: capitalize;
 }
