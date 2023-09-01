@@ -5,7 +5,6 @@ import Example from "./Example";
 
 export default function Meanings(props) {
   console.log(props.meanings);
-
   return (
     <div className="meanings">
       <p>
@@ -14,9 +13,8 @@ export default function Meanings(props) {
         </em>
 
         <div className="text">
-          <strong>Definition: </strong> {props.meanings.definition}
+          <div className="definition"> {props.meanings.definition}</div>
           <br />
-          <strong>Synonyms:</strong>{" "}
           <Synonyms synonyms={props.meanings.synonyms} />
           <Example example={props.meanings.example} />
         </div>

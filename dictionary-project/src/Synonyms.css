@@ -1,0 +1,5 @@
+.Synonyms ul {
+  list-style-type: none;
+  list-style: none;
+  display: inline;
+}

@@ -1,11 +1,13 @@
 import React from "react";
+import "./Example.css";
 
 export default function Example(props) {
   if (props.example) {
     return (
-      <em>
-        <strong>Example: </strong> {props.example}
-      </em>
+      <div className="text">
+        {" "}
+        <em>{props.example}</em>
+      </div>
     );
   } else {
     return null;
