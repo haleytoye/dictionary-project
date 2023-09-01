@@ -7,10 +7,14 @@ function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <img src={logo} className="img-fluid App-logo" alt="logo" />
+          <img
+            src={logo}
+            className="rounded mx-auto d-block img-fluid App-logo"
+            alt="logo"
+          />
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="forest" />
         </main>
         <footer className="App-footer text-center">
           <small>
