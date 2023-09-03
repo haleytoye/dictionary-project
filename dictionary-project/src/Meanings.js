@@ -9,7 +9,7 @@ export default function Meanings(props) {
     <div className="meanings">
       <p>
         <em>
-          <strong>{props.meanings.partOfSpeech}</strong>
+          <h4 className="partOfSpeech mb-4">{props.meanings.partOfSpeech}</h4>
         </em>
 
         <div className="text">
